@@ -477,7 +477,7 @@ a{
  }
  @media screen and (max-width: 400px){
     .games li{
-        height: 280px;
+        height: 300px;
         width: 100%;
         max-width: 300px;
     }
@@ -485,11 +485,4 @@ a{
         font-size:20px;
     }
  }
- @media screen and (max-width: 380px){
-    .games li{
-        height: 260px;
-    }
-    .game-detail h2{
-        font-size: small;
-    }
- }
+ 
