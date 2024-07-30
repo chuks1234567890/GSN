@@ -4,7 +4,7 @@ import Link, { useNavigate } from 'react-router-dom'
 const Games = () => {
     const navigator=useNavigate()
     const browseRoute=(myRoute)=>{
-        navigator(`/${myRoute}`)
+        navigator(`games/${myRoute}`)
     }
     const game_details=[
         {
