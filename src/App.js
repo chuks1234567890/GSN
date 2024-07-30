@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout/>}>
+        <Route path="/gamesnacks/" element={<Layout/>}>
           <Route index element={<Main/>}/>
           <Route path='games/:gameName'>
             <Route index element={ <GamePage/>}/>
