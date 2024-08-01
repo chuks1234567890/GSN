@@ -24,7 +24,7 @@ const Games = () => {
             game_route:"Simon_game"
         },
         {
-            game_title:"2048 GAME",
+            game_title:"NUMBER SLIDE",
             game_detail:"Slide tiles with same number until you reach 2048",
             game_route:"master-2048"
         },
@@ -54,9 +54,19 @@ const Games = () => {
             game_route:"Word_guessing_game"
         },
         {
-            game_title:"FLAPPY BIRD",
+            game_title:"BOUNCING BALL",
             game_detail:"Lorem ipsum dolor sit appet kdkd dd",
              game_route:"flappy_bird"
+        },
+        {
+            game_title:"PACMAN GAME",
+            game_detail:"Lorem ipsum dolor sit appet kdkd dd",
+             game_route:"pacman_game"
+        },
+        {
+            game_title:"FLAPPY BIRD",
+            game_detail:"Lorem ipsum dolor sit appet kdkd dd",
+            game_route:"flappy_bird"
         }
     ]
    const render_games=game_details.map(item=>(
@@ -66,7 +76,7 @@ const Games = () => {
             <div className="play-details">
                 <div className="details-holder">
                     <div className="game-detail">
-                        <span>{item.game_detail}</span>
+                        <span className='games-description'>{item.game_detail}</span>
                         <h2>{item.game_title}</h2>
                     </div>
                     <div className="btn">
