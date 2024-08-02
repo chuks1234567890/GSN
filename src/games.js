@@ -56,7 +56,7 @@ const Games = () => {
         {
             game_title:"BOUNCING BALL",
             game_detail:"Lorem ipsum dolor sit appet kdkd dd",
-             game_route:"flappy_bird"
+             game_route:"coloron_game"
         },
         {
             game_title:"PACMAN GAME",
