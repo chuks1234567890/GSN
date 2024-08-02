@@ -11,8 +11,8 @@ function App() {
       <Routes>
         <Route path="/gamesnacks/" element={<Layout/>}>
           <Route index element={<Main/>}/>
-          <Route path='games/:gameName'>
-            <Route index element={ <GamePage/>}/>
+          <Route path='games/'>
+            <Route index element={ <GamePage/>} path=":gameName"/>
           </Route> 
           <Route path="*" element={<Layout/>} />
         </Route>
