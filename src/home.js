@@ -19,8 +19,8 @@ const Home = () => {
   return (
     <div className="wrapper">
           <div className="hero-txt">
-              <h1 className="large-txt">Explore the gaming world on <span className="bac">J</span><span className="bac">S</span><span className="bac">G</span><span className="bac">A</span><span className="bac">M</span><span className="bac">E</span><span className="bac">S</span><span className="bac"></span><span className="bac">I</span><span className="bac">O</span></h1>
-              <p className='text-phrase'>Explore a bit sized HTML5 games on jsgames.io , view more value we offer by hitting the get started button just check it out! with up to 20+ lisenced games</p>
+              <h1 className="large-txt">Explore the gaming world on <span className="bac">G</span><span className="bac">A</span><span className="bac">M</span><span className="bac">E</span><span className="bac">S</span><span className="bac">T</span><span className="bac">A</span><span className="bac">C</span><span className="bac">K</span></h1>
+              <p className='text-phrase'>Explore a bit sized HTML5 games on gamestack.store ,  hit the get started button to explore up to 20+ <span className='opensource'>open-source</span> licensed  games</p>
           </div>
           <div className="custom-filter">
                 <div className="header" id={stickNav ? "show-header":"hide-header"}>

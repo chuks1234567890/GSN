@@ -44,30 +44,35 @@ const Games = () => {
             game_route:"Card_memory"
         },
         {
-            game_title:"SPEED TYPING",
+            game_title:"TOWER STACK",
             game_detail:"Lorem ipsum dolor sit appet kdkd dd",
             game_route:"Speed_typing_game"
         },
-        {
-            game_title:"WORD GUESSING",
-            game_detail:"Lorem ipsum dolor sit appet kdkd dd",
-            game_route:"Word_guessing_game"
-        },
+        // {
+        //     game_title:"WORD GUESSING",
+        //     game_detail:"Lorem ipsum dolor sit appet kdkd dd",
+        //     game_route:"Word_guessing_game"
+        // },
         {
             game_title:"BOUNCING BALL",
             game_detail:"Lorem ipsum dolor sit appet kdkd dd",
              game_route:"coloron_game"
         },
-        {
-            game_title:"PACMAN GAME",
-            game_detail:"Lorem ipsum dolor sit appet kdkd dd",
-             game_route:"pacman_game"
-        },
+        // {
+        //     game_title:"PACMAN GAME",
+        //     game_detail:"Lorem ipsum dolor sit appet kdkd dd",
+        //      game_route:"pacman_game"
+        // },
         {
             game_title:"FLAPPY BIRD",
             game_detail:"Lorem ipsum dolor sit appet kdkd dd",
             game_route:"flappy_bird"
-        }
+        },
+        // {
+        //     game_title:"SIMPLE MATHS",
+        //     game_detail:"Lorem ipsum dolor sit appet kdkd dd",
+        //     game_route:"flappy_bird"
+        // }
     ]
    const render_games=game_details.map(item=>(
     <li key={item.game_title} onClick={()=>browseRoute(item.game_route)}>
