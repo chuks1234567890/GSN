@@ -95,7 +95,7 @@ body::-webkit-scrollbar {
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #092f40;
+    -webkit-text-stroke-color: #000;
 }
 .hero-txt .text-phrase >.opensource{
 }
@@ -363,7 +363,7 @@ a{
     background-image: url(images/SNAKE2.PNG);
 }
 .Card_memory{
-    background-image: url(images/capturememory.svg);
+    background-image: url(images/memoryjs.svg);
     transform: none;
     background-position: 100px 20px;
     background-size: 120%;
@@ -393,6 +393,7 @@ a{
 }
 .image-Card_memory{
     background-color: #f4c531;
+    background-color: #fff;
     
 }
 .image-Water_sort_game{
