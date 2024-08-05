@@ -1,11 +1,11 @@
 import React from 'react'
-import home_icon from "./home-icon.svg"
+import home_icon from "./images/LOGO.svg"
 const Header = () => {
   return (
     <header>
         <div className="logo"><img src={home_icon} alt="logo"/></div>
         <div className="more-options">
-            <button className="btn-dark">GET STARTED</button>
+            <button className="btn-dark">Play</button>
         </div>
     </header>
   )

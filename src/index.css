@@ -87,14 +87,14 @@ body::-webkit-scrollbar {
 }
 .large-txt{
     font-family: sharp;
-    font-size: 100px;
+    font-size: 95px;
     text-align: center;
     margin-top: 60px;
     background: #1F1759;
     background: linear-gradient(#dfe9f5,#f9f9f9);
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: #000;
 }
 .hero-txt .text-phrase >.opensource{
@@ -366,7 +366,7 @@ a{
     background-image: url(images/memoryjs.svg);
     transform: none;
     background-position: 100px 20px;
-    background-size: 120%;
+    background-size: 180%;
 }
 .Water_sort_game{
     background-image: url(images/watersort.svg);
@@ -588,6 +588,9 @@ a{
    .games li{
     /* width: 320px; */
     height: 370px;
+   }
+   .large-txt{
+    /* -webkit-text-stroke-width: 3px; */
    }
 }
 @media screen and (max-width:700px) {
