@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gamesnacks/static/css/main.3222ae89.css",
+    "main.css": "/gamesnacks/static/css/main.c2da8c1f.css",
     "main.js": "/gamesnacks/static/js/main.b03a4b9a.js",
     "static/media/slidingpuzzle.svg": "/gamesnacks/static/media/slidingpuzzle.e4af287a5c4ab03190ff.svg",
     "static/media/SNAKE2.PNG": "/gamesnacks/static/media/SNAKE2.0cfade09a6a8b64a83ab.PNG",
@@ -13,11 +13,11 @@
     "static/media/Nande-q2BYr.otf": "/gamesnacks/static/media/Nande-q2BYr.c5a2da53fe53936beab9.otf",
     "static/media/gibbet-svgrepo-com.svg": "/gamesnacks/static/media/gibbet-svgrepo-com.d4f51a9131161a0c858e.svg",
     "index.html": "/gamesnacks/index.html",
-    "main.3222ae89.css.map": "/gamesnacks/static/css/main.3222ae89.css.map",
+    "main.c2da8c1f.css.map": "/gamesnacks/static/css/main.c2da8c1f.css.map",
     "main.b03a4b9a.js.map": "/gamesnacks/static/js/main.b03a4b9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3222ae89.css",
+    "static/css/main.c2da8c1f.css",
     "static/js/main.b03a4b9a.js"
   ]
 }
