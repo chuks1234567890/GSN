@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/gamesnacks/static/css/main.24440b6a.css",
-    "main.js": "/gamesnacks/static/js/main.c68885c2.js",
+    "main.css": "/gamesnacks/static/css/main.988ccdbb.css",
+    "main.js": "/gamesnacks/static/js/main.ef005649.js",
     "static/media/slidingpuzzle.svg": "/gamesnacks/static/media/slidingpuzzle.e4af287a5c4ab03190ff.svg",
-    "static/media/Chibolddemo-1GD7g.ttf": "/gamesnacks/static/media/Chibolddemo-1GD7g.60fbcc1a7edc348cd478.ttf",
+    "static/media/Dwangku-Regular.otf": "/gamesnacks/static/media/Dwangku-Regular.fcd9607e61bcb59ba6ee.otf",
     "static/media/SNAKE2.PNG": "/gamesnacks/static/media/SNAKE2.0cfade09a6a8b64a83ab.PNG",
+    "static/media/home-icon.svg": "/gamesnacks/static/media/home-icon.7b105de55495716658e97805978ac892.svg",
     "static/media/memoryjs.svg": "/gamesnacks/static/media/memoryjs.3c8ec942a5504d80ec24.svg",
-    "static/media/LOGO.svg": "/gamesnacks/static/media/LOGO.defb8feb83c4ec75ce3df02c9c49a0ed.svg",
     "static/media/capturesimon.svg": "/gamesnacks/static/media/capturesimon.3f719c5e81ec95fa2390.svg",
     "static/media/watersort.svg": "/gamesnacks/static/media/watersort.d52dcd93c3b3bfdee476.svg",
     "static/media/capture2048.svg": "/gamesnacks/static/media/capture2048.6f7dd5b393583a2f72c8.svg",
     "static/media/coloron.svg": "/gamesnacks/static/media/coloron.3a601daa7192b2e9033d.svg",
     "static/media/gibbet-svgrepo-com.svg": "/gamesnacks/static/media/gibbet-svgrepo-com.d4f51a9131161a0c858e.svg",
     "index.html": "/gamesnacks/index.html",
-    "main.24440b6a.css.map": "/gamesnacks/static/css/main.24440b6a.css.map",
-    "main.c68885c2.js.map": "/gamesnacks/static/js/main.c68885c2.js.map"
+    "main.988ccdbb.css.map": "/gamesnacks/static/css/main.988ccdbb.css.map",
+    "main.ef005649.js.map": "/gamesnacks/static/js/main.ef005649.js.map"
   },
   "entrypoints": [
-    "static/css/main.24440b6a.css",
-    "static/js/main.c68885c2.js"
+    "static/css/main.988ccdbb.css",
+    "static/js/main.ef005649.js"
   ]
 }
