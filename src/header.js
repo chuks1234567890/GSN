@@ -5,7 +5,7 @@ const Header = () => {
     <header>
         <div className="logo"><img src={home_icon} alt="logo"/></div>
         <div className="more-options">
-            <button className="btn-dark">Play</button>
+            <button className="btn-dark">PLAY&nbsp;GAMES</button>
         </div>
     </header>
   )
