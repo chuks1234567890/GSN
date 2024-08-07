@@ -41,7 +41,7 @@ body{
 }
 @font-face {
     font-family: sharp;
-    src: url("assets/fonts/Chibolddemo-1GD7g.ttf");
+    src: url("assets/fonts/dwangku-cufonfonts/Dwangku-Regular.otf");
 }
 body, html {
     overscroll-behavior: none;
@@ -87,13 +87,15 @@ body::-webkit-scrollbar {
 }
 .large-txt{
     font-family: sharp;
-    font-size: 95px;
+    font-size: 105px;
     text-align: center;
     margin-top: 60px;
     background: #1F1759;
     background: linear-gradient(#dfe9f5,#f9f9f9);
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
+    text-transform:uppercase;
+    line-height: 100%;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: #000;
 }
@@ -206,6 +208,9 @@ p{
 @media screen and (max-width:550px) {
     p{
         font-size: 16px;
+    }
+    .large-txt{
+        margin-top: 30px;
     }
 }
 #show-header{
@@ -392,8 +397,8 @@ a{
     background-color: #BBADA0;
 }
 .image-Card_memory{
-    background-color: #f4c531;
-    background-color: #fff;
+    background-color: rgb(255, 236, 201);
+    /* background-color: #fff; */
     
 }
 .image-Water_sort_game{
@@ -647,6 +652,10 @@ a{
         width: 200px;
         height: 280px;
     } */
+    .large-txt{ 
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: #000;
+    }
  }
  @media screen and (max-width: 480px){
      .games li{
@@ -659,6 +668,10 @@ a{
         font-size: 12px;
         line-height: 15px;
         display: inline-block;
+    }
+    .large-txt{ 
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #000;
     }
  }
  @media screen and (max-width: 430px){

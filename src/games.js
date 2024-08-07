@@ -5,7 +5,32 @@ const Games = () => {
     const navigator=useNavigate()
     const browseRoute=(myRoute)=>{
         navigator(`games/${myRoute}`)
+        let videoEle = document.querySelector('video');
+        enterFullScreen(videoEle);
+        
     }
+    
+        function enterFullScreen(element) {
+            if(element.requestFullscreen) {
+            element.requestFullscreen();
+            }else if (element.mozRequestFullScreen) {
+            element.mozRequestFullScreen();     // Firefox
+            }else if (element.webkitRequestFullscreen) {
+            element.webkitRequestFullscreen();  // Safari
+            }else if(element.msRequestFullscreen) {
+            element.msRequestFullscreen();      // IE/Edge
+            }
+        };
+        
+       
+        
+        document.addEventListener('fullscreenchange', (event) => {
+            if (document.fullscreenElement) {
+            console.log('Entered fullscreen:', document.fullscreenElement);
+            } else {
+            console.log('Exited fullscreen.');
+            }
+        });
     const game_details=[
         {
             game_title:"SLIDING PUZZLE",
@@ -40,7 +65,7 @@ const Games = () => {
         },
         {
             game_title:"CARD MEMORY",
-            game_detail:"FLip two cards and find pairs",
+            game_detail:"FLip two cards and find pairs before you exceed your flips",
             game_route:"Card_memory"
         },
         {
