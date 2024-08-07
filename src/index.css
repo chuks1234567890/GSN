@@ -653,7 +653,6 @@ a{
         height: 280px;
     } */
     .large-txt{ 
-        -webkit-text-stroke-width: 3px;
         -webkit-text-stroke-color: #000;
     }
  }
