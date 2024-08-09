@@ -41,7 +41,7 @@ body{
 }
 @font-face {
     font-family: sharp;
-    src: url("assets/fonts/Downloads/Nande-q2BYr.otf");
+    src: url("assets/fonts/blocken-cufonfonts/BlockenRegular-xRRKK.otf");
 }
 body, html {
     overscroll-behavior: none;
@@ -397,7 +397,7 @@ a{
     background-color: #BBADA0;
 }
 .image-Card_memory{
-    background-color: rgb(255, 236, 201);
+    background-color: #ffffff;
     /* background-color: #fff; */
     
 }
@@ -444,9 +444,14 @@ a{
 .game-detail .games-description{
     font-family: "Sniglet", system-ui;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-color: #fff;
+    color: #fff;
     font-size: 14px;
     letter-spacing: 1px;
+    background-color: rgba(0,0,0,.5);
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
 }
 .game-detail h2{
     font-family: sharp;
@@ -594,9 +599,7 @@ a{
     /* width: 320px; */
     height: 370px;
    }
-   .large-txt{
-    /* -webkit-text-stroke-width: 3px; */
-   }
+   
 }
 @media screen and (max-width:700px) {
     .games li{
@@ -610,12 +613,16 @@ a{
     .game-detail h2{
         font-size: 20px;
     }
+    .large-txt{
+        -webkit-text-stroke-width: 3px;
+       }
  }
  @media screen and (max-width:620px) {
     /* .games li{
      width: 250px;
      height: 300px;
     } */
+    
  }
  @media screen and (max-width: 560px){
     .games li{
@@ -669,8 +676,10 @@ a{
         display: inline-block;
     }
     .large-txt{ 
-        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-width: 2.5px;
         -webkit-text-stroke-color: #000;
+
+        font-size: 12vmin;
     }
  }
  @media screen and (max-width: 430px){
@@ -680,7 +689,7 @@ a{
         max-width: 300px;
     }
     .game-detail h2{
-        font-size:20px;
+        font-size:25px;
     }
  }
  
