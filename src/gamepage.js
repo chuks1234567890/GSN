@@ -6,7 +6,7 @@ const GamePage = () => {
     <div className='gamePage'>
         <div className="score-board">
             <div className="board-details">
-                <button onClick={()=> navigator("/gamesnacks")}>Back</button>
+                <button onClick={()=> navigator("/")}>Back</button>
                 <div className="score-details">
                     <div className="scores">
                         <span className="span1">BEST</span>

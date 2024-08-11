@@ -41,7 +41,7 @@ body{
 }
 @font-face {
     font-family: sharp;
-    src: url("assets/fonts/blocken-cufonfonts/BlockenRegular-xRRKK.otf");
+    src: url("assets/fonts/AllTheWayToTheSun-o2O0.ttf");
 }
 body, html {
     overscroll-behavior: none;
@@ -322,6 +322,7 @@ a{
     padding: 10px 15px 25px 15px ;
 }
 .more-options .btn-dark{
+    font-size:medium;
     position: relative;
     background-color: #222;
 }
@@ -456,7 +457,7 @@ a{
 .game-detail h2{
     font-family: sharp;
     color: #DE9D03;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
     font-size:25px;
     font-weight: 1000;
@@ -612,6 +613,7 @@ a{
     }
     .game-detail h2{
         font-size: 20px;
+        -webkit-text-stroke-width: 1px;
     }
     .large-txt{
         -webkit-text-stroke-width: 3px;
